@@ -84,9 +84,10 @@ def generate_sql_code():
     sql_code += "\n);"
 
     # Print the generated SQL code
-    print("\nGenerated SQL Code:\n")
-    print(sql_code)
+    # print("\nGenerated SQL Code:\n")
+    return sql_code
 
 
-# Call the function to generate SQL code
-generate_sql_code()
+
+if __name__ =="__main__":
+    generate_sql_code()
